@@ -1,16 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f03b8307-c8ea-48e9-b50d-1793eef33fff" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Hyper Socket.iml" afterDir="false" />
+    <list default="true" id="f03b8307-c8ea-48e9-b50d-1793eef33fff" name="Changes" comment="Created Hyper Client Handler to handle Client Socket and manage client requests and commands based on the input message.">
       <change afterPath="$PROJECT_DIR$/src/io/hyper/client/HyperClient.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/io/hyper/client/HyperClientHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/io/hyper/server/HyperServer.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -96,8 +88,30 @@
       <workItem from="1665437246063" duration="21164000" />
       <workItem from="1665475707726" duration="141000" />
       <workItem from="1665479167736" duration="8502000" />
-      <workItem from="1666944603322" duration="2122000" />
+      <workItem from="1666944603322" duration="2408000" />
     </task>
+    <task id="LOCAL-00001" summary="Initial commit from intellij">
+      <created>1666947426264</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1666947426265</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Created Hyper Server to handle Server Socket and create new Hyper Client handlers with each new client connection request.">
+      <created>1666947506784</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1666947506784</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Created Hyper Client Handler to handle Client Socket and manage client requests and commands based on the input message.">
+      <created>1666947642937</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1666947642937</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -113,5 +127,11 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Initial commit from intellij" />
+    <MESSAGE value="Created Hyper Server to handle Server Socket and create new Hyper Client handlers with each new client connection request." />
+    <MESSAGE value="Created Hyper Client Handler to handle Client Socket and manage client requests and commands based on the input message." />
+    <option name="LAST_COMMIT_MESSAGE" value="Created Hyper Client Handler to handle Client Socket and manage client requests and commands based on the input message." />
   </component>
 </project>
